@@ -1,7 +1,43 @@
 ---
+import Button from "../components/Button.astro";
 import Layout from "../layouts/Layout.astro";
 ---
 
 <Layout title="Event Management Software">
-	<h1>Página oficial de eventscase</h1>
+	<section class="text-[#0f3c50] flex flex-col items-center text-center gap-5 px-5 py-3">
+		<h1 class="text-2xl">The event management software you truly need: enhance one event or every songle one of them.</h1>
+		<p>The only technology and support you need to efficiently manage, entich and boost yor physical, virtual and hybrid events.</p>
+		<Button nameButton="Request a Demo" />
+	</section>
+
+	<section class="text-[#0f3c50] text-center gap-5 px-5 py-3">
+		<h3 class="text-xl font-medium">Our clients:</h3>
+		<div class="flex flex-wrap [&>div]:max-w-[33.333333%] justify-center">
+			<div class="flex justify-center items-center">
+				<img src="/clients/ie.webp" alt="IE">
+			</div>
+			<div class="flex justify-center items-center">
+				<img src="/clients/cdti.webp" alt="CDTI">
+			</div>
+			<div class="flex justify-center items-center">
+				<img src="/clients/united_nations.webp" alt="United Nations">
+			</div>
+			<div class="flex justify-center items-center">
+				<img src="/clients/telefonica.webp" alt="Telefónica">
+			</div>
+			<div class="flex justify-center items-center">
+				<img src="/clients/cat.webp" alt="Cat">
+			</div>
+			<div class="flex justify-center items-center">
+				<img src="/clients/bosch.webp" alt="Bosch">
+			</div>
+			<div class="flex justify-center items-center">
+				<img src="/clients/london_business_school.webp" alt="London Business School">
+			</div>
+			<div class="flex justify-center items-center">
+				<img src="/clients/celanese.webp" alt="Celanese">
+			</div>
+		</div>
+	</section>
+
 </Layout>

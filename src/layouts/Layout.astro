@@ -14,14 +14,13 @@ const titleEventscase = title ? title + ' | Eventscase' : 'Eventscase'
 	</head>
 	<body>
     <Header />
-		<slot />
+		<main>
+			<slot />
+		</main>
 	</body>
 </html>
 
 <style is:global>
-	html{
-    font-family: Aeonik;
-  }
  @font-face {
 	font-family: 'Aeonik Air';
 	src: url('./fonts/Aeonik-AirItalic.woff2') format('woff2');
