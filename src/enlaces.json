@@ -1,0 +1,36 @@
+{
+  "solutions-events": {
+    "title": "Solutions Events",
+    "urls" : [
+      {
+        "name": "Digital",
+        "url": "https://www.digital.es"
+      },
+      {
+        "name": "Physical",
+        "url": "https://www.physical.es"
+      },
+      {
+        "name": "Hybrid",
+        "url": "https://www.hybrid.es"
+      }
+    ]
+  },
+  "your-goals": {
+    "title": "Your Goals",
+    "urls" : [
+      {
+        "name": "Plan, promote and manage your events",
+        "url": "https://www.digital.es"
+      },
+      {
+        "name": "Engage your attendees",
+        "url": "https://www.physical.es"
+      },
+      {
+        "name": "Boost networking",
+        "url": "https://www.hybrid.es"
+      }
+    ]
+  }
+}

@@ -1,4 +1,5 @@
 ---
+import Footer from "../components/Footer.astro";
 import Header from "../components/Header.astro";
 const { title } = Astro.props
 const titleEventscase = title ? title + ' | Eventscase' : 'Eventscase'
@@ -14,9 +15,10 @@ const titleEventscase = title ? title + ' | Eventscase' : 'Eventscase'
 	</head>
 	<body>
     <Header />
-		<main>
+		<main class="px-7">
 			<slot />
 		</main>
+		<Footer />
 	</body>
 </html>
 
